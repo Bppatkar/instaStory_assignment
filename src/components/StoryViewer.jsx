@@ -1,31 +1,29 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from 'react';
 
-function StoryViewer({
-  story,
-  onClose,
-  onNext,
-  onPrevious,
-  isLastStory,
-  isFirstStory,
-}) {
+function StoryViewer({ story, onClose, onNext, onPrevious, isLastStory, isFirstStory }) {
   const [progress, setProgress] = useState(0);
+  const [imageOpacity, setImageOpacity] = useState(0);
   const timerRef = useRef(null);
   const storyDuration = 5000;
 
   const startTimer = () => {
     setProgress(0);
-
+    setImageOpacity(0);
     clearInterval(timerRef.current);
-    timerRef.current = setInterval(() => {
-      setProgress((prevProgress) => {
-        const newProgress = prevProgress + 100 / (storyDuration / 100);
-        if (newProgress >= 100) {
-          clearInterval(timerRef.current);
-          onNext();
-          return 100;
-        }
-        return newProgress;
-      });
+
+    setTimeout(() => {
+      setImageOpacity(1);
+      timerRef.current = setInterval(() => {
+        setProgress((prevProgress) => {
+          const newProgress = prevProgress + (100 / (storyDuration / 100));
+          if (newProgress >= 100) {
+            clearInterval(timerRef.current);
+            onNext();
+            return 100;
+          }
+          return newProgress;
+        });
+      }, 100);
     }, 100);
   };
 
@@ -38,10 +36,6 @@ function StoryViewer({
   }, [story.id, onNext]);
 
   const handleTap = (e) => {
-    if (e.target.tagName === "BUTTON") {
-      return;
-    }
-
     clearInterval(timerRef.current);
 
     const { clientX } = e;
@@ -61,7 +55,7 @@ function StoryViewer({
         onClick={handleTap}
       >
         <div className="absolute top-2 left-2 right-2 flex space-x-0.5 z-10">
-          <div className="flex-grow h-1 bg-white bg-opacity-30 rounded-full overflow-hidden">
+          <div className="flex-grow h-1 bg-white bg-opacity-50 rounded-full overflow-hidden">
             <div
               className="h-full bg-white rounded-full transition-all duration-100 linear"
               style={{ width: `${progress}%` }}
@@ -82,7 +76,9 @@ function StoryViewer({
         <img
           src={story.imageUrl}
           alt="Current Story"
-          className="w-full h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover rounded-3xl transition-opacity duration-300 ease-in-out"
+          style={{ opacity: imageOpacity }}
+          onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/600x600/E0E0E0/333333?text=Image+Error"; }}
         />
 
         <div className="absolute inset-0 flex">
@@ -95,3 +91,4 @@ function StoryViewer({
 }
 
 export default StoryViewer;
+

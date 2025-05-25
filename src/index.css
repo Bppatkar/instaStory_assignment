@@ -8,3 +8,12 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@font-face {
+  font-family: "Billabong";
+  src: url("https://raw.githubusercontent.com/JuanFuSa/Fonts/master/Billabong.ttf")
+    format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}

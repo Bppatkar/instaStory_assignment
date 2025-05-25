@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function StoriesList({ stories, onStoryClick }) {
   return (
@@ -10,14 +10,33 @@ function StoriesList({ stories, onStoryClick }) {
             className="flex flex-col items-center cursor-pointer flex-shrink-0"
             onClick={() => onStoryClick(index)}
           >
-            <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-pink-500 p-[2px] flex items-center justify-center">
+            <div
+              className={`relative w-16 h-16 rounded-full overflow-hidden p-[2px] flex items-center justify-center shadow-sm
+                         ${
+                           story.isViewed
+                             ? "border-2 border-gray-300"
+                             : "border-[3px] border-pink-500"
+                         }`}
+            >
               <img
                 src={story.imageUrl}
-                alt={`Story by User ${index + 1}`}
+                alt={`Story by ${story.name}`}
                 className="w-full h-full rounded-full object-cover"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src =
+                    "https://placehold.co/64x64/cccccc/333333?text=Story";
+                }}
               />
             </div>
-            <span className="text-xs text-gray-700 mt-1 truncate w-16 text-center">{`User ${index + 1}`}</span>
+
+            <span
+              className={`text-sm mt-1 truncate w-16 text-center ${
+                story.isViewed ? "text-gray-500" : "text-gray-700"
+              }`}
+            >
+              {story.name}
+            </span>
           </div>
         ))}
       </div>

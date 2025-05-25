@@ -1,102 +1,123 @@
 [
   {
     "id": "story1",
-    "userId": "user123",
-    "imageUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+    "name": "Luna",
+    "imageUrl": "https://randomuser.me/api/portraits/women/32.jpg",
+    "isViewed": false
   },
   {
     "id": "story2",
-    "userId": "user456",
-    "imageUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+    "name": "Finnley",
+    "imageUrl": "https://randomuser.me/api/portraits/men/45.jpg",
+    "isViewed": false
   },
   {
     "id": "story3",
-    "userId": "user789",
-    "imageUrl": "https://randomuser.me/api/portraits/men/78.jpg"
+    "name": "Aria",
+    "imageUrl": "https://randomuser.me/api/portraits/women/78.jpg",
+    "isViewed": false
   },
   {
     "id": "story4",
-    "userId": "user101",
-    "imageUrl": "https://randomuser.me/api/portraits/women/12.jpg"
+    "name": "Kai",
+    "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+    "isViewed": false
   },
   {
     "id": "story5",
-    "userId": "user112",
-    "imageUrl": "https://randomuser.me/api/portraits/men/99.jpg"
+    "name": "Lila",
+    "imageUrl": "https://randomuser.me/api/portraits/women/99.jpg",
+    "isViewed": false
   },
   {
     "id": "story6",
-    "userId": "user113",
-    "imageUrl": "https://randomuser.me/api/portraits/women/34.jpg"
+    "name": "Maverick",
+    "imageUrl": "https://randomuser.me/api/portraits/men/66.jpg",
+    "isViewed": false
   },
   {
     "id": "story7",
-    "userId": "user114",
-    "imageUrl": "https://randomuser.me/api/portraits/men/56.jpg"
+    "name": "Sage",
+    "imageUrl": "https://randomuser.me/api/portraits/women/14.jpg",
+    "isViewed": false
   },
   {
     "id": "story8",
-    "userId": "user115",
-    "imageUrl": "https://randomuser.me/api/portraits/women/67.jpg"
+    "name": "River",
+    "imageUrl": "https://randomuser.me/api/portraits/men/23.jpg",
+    "isViewed": false
   },
   {
     "id": "story9",
-    "userId": "user116",
-    "imageUrl": "https://randomuser.me/api/portraits/men/89.jpg"
+    "name": "Indie",
+    "imageUrl": "https://randomuser.me/api/portraits/women/36.jpg",
+    "isViewed": false
   },
   {
     "id": "story10",
-    "userId": "user117",
-    "imageUrl": "https://randomuser.me/api/portraits/women/23.jpg"
+    "name": "Clio",
+    "imageUrl": "https://randomuser.me/api/portraits/men/48.jpg",
+    "isViewed": false
   },
   {
     "id": "story11",
-    "userId": "user118",
-    "imageUrl": "https://randomuser.me/api/portraits/men/42.jpg"
+    "name": "Luna",
+    "imageUrl": "https://randomuser.me/api/portraits/women/57.jpg",
+    "isViewed": false
   },
   {
     "id": "story12",
-    "userId": "user119",
-    "imageUrl": "https://randomuser.me/api/portraits/women/54.jpg"
+    "name": "Orion",
+    "imageUrl": "https://randomuser.me/api/portraits/men/67.jpg",
+    "isViewed": false
   },
   {
     "id": "story13",
-    "userId": "user120",
-    "imageUrl": "https://randomuser.me/api/portraits/men/65.jpg"
+    "name": "Astrid",
+    "imageUrl": "https://randomuser.me/api/portraits/women/72.jpg",
+    "isViewed": false
   },
   {
     "id": "story14",
-    "userId": "user121",
-    "imageUrl": "https://randomuser.me/api/portraits/women/76.jpg"
+    "name": "Sasha",
+    "imageUrl": "https://randomuser.me/api/portraits/men/85.jpg",
+    "isViewed": false
   },
   {
     "id": "story15",
-    "userId": "user122",
-    "imageUrl": "https://randomuser.me/api/portraits/men/87.jpg"
+    "name": "Lila",
+    "imageUrl": "https://randomuser.me/api/portraits/women/90.jpg",
+    "isViewed": false
   },
   {
     "id": "story16",
-    "userId": "user123",
-    "imageUrl": "https://randomuser.me/api/portraits/women/98.jpg"
+    "name": "Maverick",
+    "imageUrl": "https://randomuser.me/api/portraits/men/99.jpg",
+    "isViewed": false
   },
   {
     "id": "story17",
-    "userId": "user124",
-    "imageUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    "name": "Indie",
+    "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+    "isViewed": false
   },
   {
     "id": "story18",
-    "userId": "user125",
-    "imageUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    "name": "Orion",
+    "imageUrl": "https://randomuser.me/api/portraits/men/19.jpg",
+    "isViewed": false
   },
   {
     "id": "story19",
-    "userId": "user126",
-    "imageUrl": "https://randomuser.me/api/portraits/men/33.jpg"
+    "name": "Aria",
+    "imageUrl": "https://randomuser.me/api/portraits/women/21.jpg",
+    "isViewed": false
   },
   {
     "id": "story20",
-    "userId": "user127",
-    "imageUrl": "https://randomuser.me/api/portraits/women/44.jpg"
+    "name": "Clio",
+    "imageUrl": "https://randomuser.me/api/portraits/men/34.jpg",
+    "isViewed": false
   }
 ]
+
