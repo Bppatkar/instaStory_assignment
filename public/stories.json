@@ -1,123 +1,112 @@
 [
   {
-    "id": "story1",
-    "name": "Luna",
-    "imageUrl": "https://randomuser.me/api/portraits/women/32.jpg",
+    "id": "1",
+    "name": "Big Buck Bunny",
+    "profileUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story2",
-    "name": "Finnley",
-    "imageUrl": "https://randomuser.me/api/portraits/men/45.jpg",
+    "id": "2",
+    "name": "Elephants Dream",
+    "profileUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story3",
-    "name": "Aria",
-    "imageUrl": "https://randomuser.me/api/portraits/women/78.jpg",
+    "id": "3",
+    "name": "For Bigger Blazes",
+    "profileUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story4",
-    "name": "Kai",
-    "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+    "id": "4",
+    "name": "For Bigger Escape",
+    "profileUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story5",
-    "name": "Lila",
-    "imageUrl": "https://randomuser.me/api/portraits/women/99.jpg",
+    "id": "5",
+    "name": "Big Buck Bunny 2",
+    "profileUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story6",
-    "name": "Maverick",
-    "imageUrl": "https://randomuser.me/api/portraits/men/66.jpg",
+    "id": "6",
+    "name": "For Bigger Blazes 2",
+    "profileUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story7",
-    "name": "Sage",
-    "imageUrl": "https://randomuser.me/api/portraits/women/14.jpg",
+    "id": "7",
+    "name": "For Bigger Escape 2",
+    "profileUrl": "https://randomuser.me/api/portraits/men/7.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story8",
-    "name": "River",
-    "imageUrl": "https://randomuser.me/api/portraits/men/23.jpg",
+    "id": "8",
+    "name": "Elephants Dream 2",
+    "profileUrl": "https://randomuser.me/api/portraits/women/8.jpg",
+    "story": {
+      "type": "video",
+      "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
     "isViewed": false
   },
   {
-    "id": "story9",
-    "name": "Indie",
-    "imageUrl": "https://randomuser.me/api/portraits/women/36.jpg",
+    "id": "image1",
+    "name": "Traveler",
+    "profileUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+    "story": {
+      "type": "image",
+      "imageUrl": "https://picsum.photos/id/100/600/900"
+    },
     "isViewed": false
   },
   {
-    "id": "story10",
-    "name": "Clio",
-    "imageUrl": "https://randomuser.me/api/portraits/men/48.jpg",
+    "id": "image2",
+    "name": "NatureLover",
+    "profileUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+    "story": {
+      "type": "image",
+      "imageUrl": "https://picsum.photos/id/101/600/900"
+    },
     "isViewed": false
   },
   {
-    "id": "story11",
-    "name": "Luna",
-    "imageUrl": "https://randomuser.me/api/portraits/women/57.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story12",
-    "name": "Orion",
-    "imageUrl": "https://randomuser.me/api/portraits/men/67.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story13",
-    "name": "Astrid",
-    "imageUrl": "https://randomuser.me/api/portraits/women/72.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story14",
-    "name": "Sasha",
-    "imageUrl": "https://randomuser.me/api/portraits/men/85.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story15",
-    "name": "Lila",
-    "imageUrl": "https://randomuser.me/api/portraits/women/90.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story16",
-    "name": "Maverick",
-    "imageUrl": "https://randomuser.me/api/portraits/men/99.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story17",
-    "name": "Indie",
-    "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story18",
-    "name": "Orion",
-    "imageUrl": "https://randomuser.me/api/portraits/men/19.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story19",
-    "name": "Aria",
-    "imageUrl": "https://randomuser.me/api/portraits/women/21.jpg",
-    "isViewed": false
-  },
-  {
-    "id": "story20",
-    "name": "Clio",
-    "imageUrl": "https://randomuser.me/api/portraits/men/34.jpg",
+    "id": "image3",
+    "name": "CityExplorer",
+    "profileUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+    "story": {
+      "type": "image",
+      "imageUrl": "https://picsum.photos/id/102/600/900"
+    },
     "isViewed": false
   }
 ]
-
