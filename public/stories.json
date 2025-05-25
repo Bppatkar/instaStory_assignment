@@ -1,0 +1,102 @@
+[
+  {
+    "id": "story1",
+    "userId": "user123",
+    "imageUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": "story2",
+    "userId": "user456",
+    "imageUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+  },
+  {
+    "id": "story3",
+    "userId": "user789",
+    "imageUrl": "https://randomuser.me/api/portraits/men/78.jpg"
+  },
+  {
+    "id": "story4",
+    "userId": "user101",
+    "imageUrl": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": "story5",
+    "userId": "user112",
+    "imageUrl": "https://randomuser.me/api/portraits/men/99.jpg"
+  },
+  {
+    "id": "story6",
+    "userId": "user113",
+    "imageUrl": "https://randomuser.me/api/portraits/women/34.jpg"
+  },
+  {
+    "id": "story7",
+    "userId": "user114",
+    "imageUrl": "https://randomuser.me/api/portraits/men/56.jpg"
+  },
+  {
+    "id": "story8",
+    "userId": "user115",
+    "imageUrl": "https://randomuser.me/api/portraits/women/67.jpg"
+  },
+  {
+    "id": "story9",
+    "userId": "user116",
+    "imageUrl": "https://randomuser.me/api/portraits/men/89.jpg"
+  },
+  {
+    "id": "story10",
+    "userId": "user117",
+    "imageUrl": "https://randomuser.me/api/portraits/women/23.jpg"
+  },
+  {
+    "id": "story11",
+    "userId": "user118",
+    "imageUrl": "https://randomuser.me/api/portraits/men/42.jpg"
+  },
+  {
+    "id": "story12",
+    "userId": "user119",
+    "imageUrl": "https://randomuser.me/api/portraits/women/54.jpg"
+  },
+  {
+    "id": "story13",
+    "userId": "user120",
+    "imageUrl": "https://randomuser.me/api/portraits/men/65.jpg"
+  },
+  {
+    "id": "story14",
+    "userId": "user121",
+    "imageUrl": "https://randomuser.me/api/portraits/women/76.jpg"
+  },
+  {
+    "id": "story15",
+    "userId": "user122",
+    "imageUrl": "https://randomuser.me/api/portraits/men/87.jpg"
+  },
+  {
+    "id": "story16",
+    "userId": "user123",
+    "imageUrl": "https://randomuser.me/api/portraits/women/98.jpg"
+  },
+  {
+    "id": "story17",
+    "userId": "user124",
+    "imageUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": "story18",
+    "userId": "user125",
+    "imageUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+  },
+  {
+    "id": "story19",
+    "userId": "user126",
+    "imageUrl": "https://randomuser.me/api/portraits/men/33.jpg"
+  },
+  {
+    "id": "story20",
+    "userId": "user127",
+    "imageUrl": "https://randomuser.me/api/portraits/women/44.jpg"
+  }
+]
