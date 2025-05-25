@@ -1,20 +1,24 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: 'Billabong';
+  src: url('https://raw.githubusercontent.com/JuanFuSa/Fonts/master/Billabong.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
+
 .no-scrollbar::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-@font-face {
-  font-family: "Billabong";
-  src: url("https://raw.githubusercontent.com/JuanFuSa/Fonts/master/Billabong.ttf")
-    format("truetype");
-
-  font-weight: normal;
-  font-style: normal;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
 }
